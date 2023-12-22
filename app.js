@@ -89,7 +89,7 @@ const student = Object.create({
 });//создает обьект
 
 student.name = 'Bis';
-Object.defineProperties(student, 'progress', {
+Object.defineProperty(student, 'progress', {
     configurable: true,
     emunerable: true,
     value: 0.8 ,
